@@ -14,6 +14,15 @@ sudo pacman -S avr-gcc avr-gdb avr-libc avrdude
 ```
 
 
+## debug
+https://create.arduino.cc/projecthub/visualmicro/arduino-uno-debugging-f4d470
+https://granasat.ugr.es/2017/10/debuggin-arduino-mega-2560-with-jtagice3/
+http://a110a.free.fr/SPIP172/article.php3?id_article=144
+https://www.instructables.com/id/Program-ANY-Arduino-board-when-USB-chip-breakscorr/
+
+
+
+
 ## troubles
 
 https://github.com/jmattsson/tinyos-arduino/issues/2
