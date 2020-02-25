@@ -15,6 +15,11 @@ sudo pacman -S avr-gcc avr-gdb avr-libc avrdude
 
 
 ## debug
+https://linux.die.net/man/1/avarice
+
+
+http://luniks.net/avr-debug.jsp
+
 https://create.arduino.cc/projecthub/visualmicro/arduino-uno-debugging-f4d470
 https://granasat.ugr.es/2017/10/debuggin-arduino-mega-2560-with-jtagice3/
 http://a110a.free.fr/SPIP172/article.php3?id_article=144
