@@ -9,7 +9,7 @@ https://github.com/jmattsson/tinyos-arduino
 ## requirements
 
 ```
-sudo pacman -S avr-gcc avr-libc avrdude
+sudo pacman -S avr-gcc avr-gdb avr-libc avrdude
 
 ```
 
