@@ -2,7 +2,7 @@
 
 
 
- wget http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-latest.tar.gz
+ # wget http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-latest.tar.gz
 
 
 
