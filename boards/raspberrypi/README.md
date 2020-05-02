@@ -17,7 +17,8 @@ https://wiki.archlinux.org/index.php/Netctl
 https://raspberrypi.stackexchange.com/questions/7987/wifi-configuration-on-arch-linux-arm
 ```
 install -m640 examples/wireless-wpa wirelesshome
-
+netctl start wirelesshome
+netctl enable wirelesshome
 ```
 
 ## MRAA
@@ -29,8 +30,12 @@ https://github.com/eclipse/mraa/blob/master/docs/building.md
 
 
 ```
-sudo pacman -S python pip
-yay -S mraa
+sudo pacman -S python python-pip
+git clone https://github.com/abdullatifmouhamadi/archlinux.git
+
+
+
+#yay -S mraa
 
 
 
