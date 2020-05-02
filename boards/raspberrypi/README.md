@@ -2,24 +2,15 @@ https://archlinuxarm.org/platforms/armv6/raspberry-pi
 https://archlinuxarm.org/platforms/armv6/raspberry-pi
 
 
-##
-https://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/
+## setup 
+```
+pacman -S git
+```
 
 
-sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
-
-
-network={
-ssid="YOUR_NETWORK_NAME"
-psk="YOUR_NETWORK_PASSWORD"
-proto=RSN
-key_mgmt=WPA-PSK
-pairwise=CCMP
-auth_alg=OPEN
-}
-
-
-##
+## installing netctl 
+https://wiki.archlinux.fr/netctl
+https://wiki.archlinux.org/index.php/Netctl
 https://raspberrypi.stackexchange.com/questions/7987/wifi-configuration-on-arch-linux-arm
 
 
@@ -31,5 +22,15 @@ install -m640 examples/wireless-wpa wireless-home
 ```
 
 https://wiki.archlinux.fr/netctl
+
+
+## installing yay
+```
+pacman -S base-devel go 
+
+```
+
+https://github.com/Jguer/yay
+
 
 
