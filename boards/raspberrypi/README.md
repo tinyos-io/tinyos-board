@@ -2,6 +2,7 @@ https://archlinuxarm.org/platforms/armv6/raspberry-pi
 https://archlinuxarm.org/platforms/armv6/raspberry-pi
 
 
+##
 https://weworkweplay.com/play/automatically-connect-a-raspberry-pi-to-a-wifi-network/
 
 
@@ -18,6 +19,17 @@ auth_alg=OPEN
 }
 
 
+##
+https://raspberrypi.stackexchange.com/questions/7987/wifi-configuration-on-arch-linux-arm
 
+
+```
+install -m640 examples/wireless-wpa wireless-home
+
+
+
+```
+
+https://wiki.archlinux.fr/netctl
 
 
