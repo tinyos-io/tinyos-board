@@ -32,15 +32,45 @@ https://github.com/eclipse/mraa/blob/master/docs/building.md
 ```
 sudo pacman -S python python-pip
 git clone https://github.com/abdullatifmouhamadi/archlinux.git
+makepkg -si
+
+```
+
+## RF24
+## __________________________________________________________________________________________
+http://tmrh20.github.io/RF24/
+https://github.com/nRF24/RF24
+https://tmrh20.github.io/RF24/Linux.html
+https://tmrh20.github.io/RF24/CrossCompile.html
 
 
-
-#yay -S mraa
-
+CrossCompile:
+```
+sudo pacman -S expect dejagnu
+yay -S arm-linux-gnueabihf-gcc
 
 
 
 ```
+
+-:
+```
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
