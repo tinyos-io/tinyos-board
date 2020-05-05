@@ -10,7 +10,7 @@ pacman -S git
 pacman -S base-devel go
 ```
 
-## installing netctl 
+## installing Wifi: netctl 
 ## __________________________________________________________________________________________
 https://wiki.archlinux.fr/netctl
 https://wiki.archlinux.org/index.php/Netctl
