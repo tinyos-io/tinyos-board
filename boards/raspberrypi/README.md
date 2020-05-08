@@ -61,6 +61,17 @@ yay -S arm-linux-gnueabihf-gcc
 ```
 
 
+## DNS issues
+
+https://archlinuxarm.org/forum/viewtopic.php?f=60&t=13950
+
+resolvectl dnssec
+
+In /etc/systemd/resolved.conf I changed: #DNSSEC=allow-downgrade to DNSSEC=no.
+
+Then restart with sudo systemctl restart systemd-resolved
+
+
 
 
 
