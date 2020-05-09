@@ -85,6 +85,20 @@ Then restart with sudo systemctl restart systemd-resolved
 https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md
 
 
+```
+cat ~/.ssh/id_rsa.pub | ssh alarm@houdapi 'mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys'
+cat ~/.ssh/id_rsa.pub | ssh alarm@ilyanpi2 'mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys'
+
+```
+
+
+
+
+
+
+
+
+
 
 
 
