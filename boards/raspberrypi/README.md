@@ -79,6 +79,13 @@ Then restart with sudo systemctl restart systemd-resolved
 
 
 
+## VSCODE ssh connexion
+## __________________________________________________________________________________________
+
+https://www.raspberrypi.org/documentation/remote-access/ssh/passwordless.md
+
+
+
 
 
 
